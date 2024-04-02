@@ -5,7 +5,7 @@ enum Class {
 }
  
 public abstract class User {
-    static int nextId;
+    static int globalId;
     private String name;
     LocalDate dob;
     int id;
@@ -15,7 +15,7 @@ public abstract class User {
     public User(String name) {
         System.out.println("Call the User Constructor");
         this.name = name;
-        this.id = ++nextId;
+        this.id = ++globalId;
     }
  
     public String GetName() {

@@ -23,14 +23,14 @@ public class Inheritance {
         // System.out.println(student instanceof Student);
         // System.out.println(student instanceof User);
 
-        // Triangle triangle = new Triangle(5, 10);
-        // System.out.println(triangle.GetArea());
+        Triangle triangle = new Triangle(5, 10);
+        System.out.println(triangle.GetArea());
 
-        // Rectangle rectangle = new Rectangle(5, 10);
-        // System.out.println(rectangle.GetArea());
+        Rectangle rectangle = new Rectangle(5, 10);
+        System.out.println(rectangle.GetArea());
 
-        // Circle circle = new Circle(5);
-        // System.out.println(circle.GetArea());
+        Circle circle = new Circle(5);
+        System.out.println(circle.GetArea());
         
         
         BankAccount account = new BankAccount(3.0);
